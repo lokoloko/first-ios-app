@@ -56,7 +56,7 @@ double convertUnitOneToUnitFour (double unitOneValue){
     double userInput = [self.inputField.text doubleValue];
     
     
-    if(self.segmentController.selectedSegmentIndex ==0){
+    if (self.segmentController.selectedSegmentIndex == 0){
         double unitTwoValue = convertUnitOneToUnitTwo(userInput);
         [buf appendString: [@(unitTwoValue) stringValue]];
     }
